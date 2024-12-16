@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Examen AWeb</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="nombreAlumno/img/favicon.jpg"
+      type="image/jpg"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!--fila para el menu-->
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MUNDOS LABORLLAES</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Mundos Laborales</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">METAVERSO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">REALIDAD VIRTUAL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">REALIDAD AUMENTADA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">LA INTERNET DE LAS COSAS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--fila para el banner-->
+      <div class="row mt-1 mb-1">
+        <div class="col-12">
+          <img class="img-fluid" src="img/banner.jpg" alt="banner" />
+        </div>
+      </div>
+      <!--fila para los metaversos,realidad virtual y formularios-->
+      <div class="row">
+        <!--bloque metaversos formulario  y mas...-->
+        <div class="col-12 col-md-8 mb-1 mt-2">
+          <div class="alert alert-secondary text-center" role="alert">
+            METAVERSO
+          </div>
+          <div class="row">
+            <!--Bloque  de metaversos-->
+            <div class="col-12 col-md-4">
+              <img class="img-fluid" src="img/metaverso.jpg" alt="" />
+            </div>
+            <div class="col-12 col-md-8">
+              <div class="alert alert-light" role="alert">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum deleniti iste voluptas sequi quia eos quam tempora
+                voluptatem! Optio laudantium necessitatibus quas in quia quaerat
+                dolorum modi officiis voluptate rem porro, iusto itaque
+                molestiae perferendis similique eligendi nam repellendus nobis?
+                Placeat, dolores sed rem voluptas perferendis quis
+                necessitatibus ipsa ratione ad dolore ipsum molestiae corporis
+                voluptates, temporibus fugit commodi praesentium!
+              </div>
+            </div>
+          </div>
+          <!--fila realidad aumentada y realidad virtual-->
+          <div class="row">
+            <div class="col-12 col-md-6 mt-3">
+              <div class="alert alert-dark" role="alert">REALIDAD VIRTUAL</div>
+              <div class="alert alert-light" role="alert">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                quibusdam illum sequi esse vitae molestias asperiores ipsam
+                aliquid dicta magnam dolorem magni labore, similique maiores
+                veritatis expedita. Velit, expedita odit ducimus magni nisi qui
+                tenetur repellendus praesentium saepe! Corrupti facere
+                consectetur magni! Perferendis, expedita deserunt! Tenetur nam
+                ex qui aliquid.
+              </div>
+              <button type="button" class="btn btn-success w-100 mb-1">
+                LER MAS...
+              </button>
+            </div>
+            <div class="col-12 col-md-6 mt-3">
+              <div class="alert alert-dark" role="alert">
+                REALIDAD AUMENTADA
+              </div>
+              <div class="alert alert-light" role="alert">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                quibusdam illum sequi esse vitae molestias asperiores ipsam
+                aliquid dicta magnam dolorem magni labore, similique maiores
+                veritatis expedita. Velit, expedita odit ducimus magni nisi qui
+                tenetur repellendus praesentium saepe! Corrupti facere
+                consectetur magni! Perferendis, expedita deserunt! Tenetur nam
+                ex qui aliquid.
+              </div>
+              <button type="button" class="btn btn-success w-100 mb-1">
+                LER MAS...
+              </button>
+            </div>
+          </div>
+          <!--cuarta fila -->
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="formulario"
+                style="background-color: rgb(241, 241, 241); padding: 10px"
+              >
+                <div class="alert alert-secondary text-center" role="alert">
+                  FORMULARIO DE CONTACTO
+                </div>
+                <form action="procesar.php" method="post">
+                  <input
+                    type="email"
+                    class="form-control mb-3"
+                    name="correo"
+                    placeholder="ESCRIBA SU CORREO AQUI:"
+                  />
+                  <textarea
+                    class="form-control"
+                    placeholder="DEJA TU COMENTARIO AQUI"
+                    id="floatingTextarea"
+                    name="comentario"
+                    style="resize: none"
+                    rows="5"
+                  ></textarea>
+                  <div
+                    class="botonera"
+                    style="display: flex; justify-content: end"
+                  >
+                    <button type="submit" class="btn btn-primary mt-2">
+                      ENVIAR
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-2">
+          <div class="imagen" style="border: 1px solid gainsboro; padding: 5px">
+            <img class="img-fluid" src="img/login.png" alt="" />
+          </div>
+          <!--formulario login-->
+          <div class="row mb-1 mt-2">
+            <div class="col-12">
+              <div class="alert alert-secondary text-center" role="alert">
+                <b>INICIO DE SESION</b>
+              </div>
+              <form>
+                <div class="mb-3">
+                  <label
+                    for="correo"
+                    class="form-label"
+                    style="
+                      background-color: gainsboro;
+                      display: block;
+                      padding: 10px;
+                      border: 1px solid gray;
+                    "
+                    >Correo</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="correo"
+                    name="correo"
+                    placeholder="mameexample@gmail.com"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label
+                    for="contraseña"
+                    class="form-label"
+                    style="
+                      background-color: gainsboro;
+                      display: block;
+                      padding: 10px;
+                      border: 1px solid gray;
+                    "
+                    >Password</label
+                  >
+                  <input type="password" class="form-control" id="contraseña" />
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mb-1">
+                  ACCEDER
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--fila para el realizado por-->
+      <div class="row mb-1 mt-2">
+        <div class="col-12">
+          <div class="alert alert-secondary" role="alert">
+            Realizado por:Mario Craciun
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
